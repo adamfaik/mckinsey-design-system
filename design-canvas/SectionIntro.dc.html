@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: #2251FF; }
+    a:hover { color: #1C44DC; }
+  </style>
+</helmet>
+<div style="position:relative; width:816px; height:1056px; background:#001B2C; overflow:hidden; font-family:'Public Sans',-apple-system,'Segoe UI',sans-serif;">
+  <svg viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" style="position:absolute; inset:0; width:100%; height:100%; opacity:0.7;">
+    <defs>
+      <linearGradient id="flowA2" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#99C4FF"/><stop offset="45%" stop-color="#2251FF"/><stop offset="75%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#00A9F4"/>
+      </linearGradient>
+      <linearGradient id="flowB2" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00A9F4"/><stop offset="50%" stop-color="#5E9DFF"/><stop offset="100%" stop-color="#C084FC"/>
+      </linearGradient>
+      <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <rect width="1000" height="1000" fill="#001B2C"/>
+    <g filter="url(#glow2)" opacity="0.9">
+      <path d="M -100 888 C 250 368, 650 784, 1100 420" fill="none" stroke="url(#flowA2)" stroke-width="2.5" opacity="0.55"/>
+      <path d="M -100 961 C 250 405, 650 849.8, 1100 460.6" fill="none" stroke="url(#flowB2)" stroke-width="2.5" opacity="0.61"/>
+      <path d="M -100 1034 C 250 442, 650 915.6, 1100 501.2" fill="none" stroke="url(#flowA2)" stroke-width="5" opacity="0.67"/>
+      <path d="M -100 1107 C 250 479, 650 981.4, 1100 541.8" fill="none" stroke="url(#flowB2)" stroke-width="2.5" opacity="0.73"/>
+      <path d="M -100 1180 C 250 516, 650 1047.2, 1100 582.4" fill="none" stroke="url(#flowA2)" stroke-width="2.5" opacity="0.79"/>
+      <path d="M -100 1253 C 250 553, 650 1113, 1100 623" fill="none" stroke="url(#flowB2)" stroke-width="2.5" opacity="0.85"/>
+    </g>
+  </svg>
+
+  <div style="position:relative; height:100%; display:flex; align-items:center; padding:64px;">
+    <div style="max-width:555px; padding:36px; background:rgba(255,255,255,0.96); color:#231F20; box-shadow:0 0 40px rgba(0,0,0,0.15); display:flex; flex-direction:column; gap:16px;">
+      <p style="margin:0; font-size:19px; line-height:1.55;">
+        <span style="float:left; margin-right:8px; font-family:'Source Serif 4',Georgia,serif; font-size:64px; font-weight:600; line-height:0.8; color:#231F20;">e</span>arly into its second decade of research on enterprise technology adoption, Meridian Analytics finds that organizations are past the point of asking whether to automate. The latest survey shows nearly eight in ten organizations using automation in at least one function, with the fastest movers now redesigning entire workflows around it rather than layering it onto existing processes.
+      </p>
+      <p style="margin:0; font-size:16px; line-height:1.55;">Individual impact is real and immediate: most employees report meaningful personal productivity gains. Enterprise-level financial impact is a different story, and has barely moved in twelve months &mdash; a gap this report explores in detail.</p>
+      <p style="margin:0; font-size:16px; font-weight:500; color:#2251FF;">Read the full methodology</p>
+    </div>
+  </div>
+
+  <div style="position:absolute; bottom:28px; right:56px; display:flex; align-items:baseline; gap:12px; font-size:12px; font-weight:600; color:rgba(255,255,255,0.8);">
+    <span>The state of workplace automation, 2026</span><span>9</span>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

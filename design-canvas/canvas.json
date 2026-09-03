@@ -1,0 +1,14 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 816, "h": 1056, "title": "Cover" },
+    { "file": "Statement.dc.html", "x": 916, "y": 0, "w": 816, "h": 1056, "title": "Statement" },
+    { "file": "KeyFindings.dc.html", "x": 1832, "y": 0, "w": 816, "h": 1056, "title": "Key findings" },
+    { "file": "ExhibitTrend.dc.html", "x": 0, "y": 1206, "w": 816, "h": 1056, "title": "Exhibit — trend + stacked bar" },
+    { "file": "ExhibitRanked.dc.html", "x": 916, "y": 1206, "w": 816, "h": 1056, "title": "Exhibit — ranked bars" },
+    { "file": "SidebarHeatmap.dc.html", "x": 1832, "y": 1206, "w": 816, "h": 1056, "title": "Sidebar — heatmap" },
+    { "file": "SectionIntro.dc.html", "x": 0, "y": 2412, "w": 816, "h": 1056, "title": "Section intro" },
+    { "file": "Closing.dc.html", "x": 916, "y": 2412, "w": 816, "h": 1056, "title": "Closing" },
+    { "file": "BackCover.dc.html", "x": 1832, "y": 2412, "w": 816, "h": 1056, "title": "Back cover" }
+  ],
+  "launch": { "view": "canvas" }
+}
